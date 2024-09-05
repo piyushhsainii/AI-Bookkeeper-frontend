@@ -1,1 +1,1 @@
-export const backend_url = "https://ai-bookkeeper-backend.vercel.app"
+export const backend_url = "https://ai-bookkeeper-backend.onrender.com"
