@@ -173,7 +173,7 @@ const Transactions = () => {
 
         transactions.response.forEach((transaction) => {
             const price = parseFloat(transaction.price);
-            const category = transaction.category.trim()
+            const category = transaction.category
 
             if (category) { // Only process if category is non-empty
                 if (categorySums[category]) {
